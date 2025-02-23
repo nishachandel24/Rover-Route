@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image:url("Blue and Green Modern Artificial Intelligence Presentation.jpg");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.lot {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border: 2px dashed rgba(255, 255, 255, 0.5);
+    border-radius: 70px;
+    padding: 20px;
+    background: rgba(128, 105, 105, 0.1);
+    animation: blink 5s infinite alternate;
+}
+@keyframes blink {
+    0% {opacity: 1; }
+    100% {opacity: 0; }
+}
+.app {
+    width: 180px;
+    height: 50px;
+    background-color: #ff9800;
+    border: 3px solid black;
+    border-radius: 20%;
+    font-size: 1rem;
+    background-color: rgb(135, 81, 135);
+    cursor: pointer;
+    transition: transform 0.5s ease, background 0.3s ease;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.app:hover {
+    background-color: #f57c00;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+button a  {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+.back {
+    position: fixed;
+    top: 20px;
+    left:20px;
+    padding: 25px 35px;
+    background-color: #0f447c;
+    color: rgb(19, 14, 14);
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.back:hover {
+    background-color: #7cb7f5;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
